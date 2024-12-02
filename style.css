@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body {
+background-color: bisque;
+}
+.box{
+    width: 550px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 100px auto;
+    background-color: white;
+    min-height: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.box:hover{
+    width: 550px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 100px auto;
+    background-color: ghostwhite;
+    min-height: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+input{
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+input:hover{
+    width: 400px;
+    height: 55px;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+#Check{
+    padding: 12px 24px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+#Check:hover{
+    padding: 17px 34px;
+    background-color: green;
+    color: red;
+    border-radius: 25px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.result{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+    text-align:center;
+    margin-left:160px;
+}
+
+.result:hover{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+    text-align:center;
+    margin-left:150px;
+    color: red;
+}
+
+ul{
+    list-style: none;
+    margin-top: 20px;
+}
+li{
+    margin: 5px 0;
+    font-size: 18px;
+}
